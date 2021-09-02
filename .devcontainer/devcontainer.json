@@ -21,7 +21,7 @@
     ],
   },
   "mounts": [
-    "source=${localWorkspaceFolder}/../build,target=/workspaces/build,type=bind,consistency=delegated",
+    "source=${localWorkspaceFolder}/../build-externpro,target=/workspaces/build,type=bind,consistency=delegated",
     "source=${localWorkspaceFolder}/../_bldpkgs,target=/workspaces/_bldpkgs,type=bind,consistency=delegated",
   ]
 }
